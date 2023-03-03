@@ -1,38 +1,116 @@
-.App {
+.toDoList-logo{
+position: absolute;
+width: 345px;
+height: 254;
+margin-left:25px;
+margin-top:202px;
+}
+.paragrap{
+  position: absolute;
+  width: 267px;
+  height: 30px;
+  left: 61px;
+  top: 499px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
   text-align: center;
+  color: #000000;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.text{
+  position: absolute;
+  width: 242px;
+  height: 110px;
+  left: 74px;
+  top: 547px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.74);
+}
+.but{
+  position: absolute;
+  width: 220px;
+  height: 44px;
+  left: 85px;
+  top: 726px;
+  background: rgba(85, 132, 122, 0.97);
 }
 
-.App-link {
-  color: #61dafb;
+.onBoard{
+position: absolute;
+width: 197px;
+height: 30px;
+left: 96px;
+top: 172px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+color: #000000;
+}
+.SIgnButton{
+  position: absolute;
+width: 220px;
+height: 44px;
+left: 85px;
+top: 682px;
+background: rgba(85, 132, 122, 0.97);
+}
+.text2{
+  position: absolute;
+  width: 260px;
+  height: 74px;
+  left: 65px;
+  top: 202px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center; 
+  color: rgba(85, 132, 122, 0.97);
+  margin-left: 48px;
+}
+.endText{
+  margin-left: 89px;
+  margin-top: 418px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.62);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inputDiv{
+  display: grid;
+  height: 47px;
+  width: 340px;
+  margin-left: 25px;
+  margin-top: 300px;
+}
+input{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 20px;
+border-radius: 11px;
+padding: 4%;
+margin-bottom: 6%;
 }
